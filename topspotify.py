@@ -1,7 +1,5 @@
 # IMPORT LIBRARIES
 import pandas as pd 
-import seaborn as sns
-import matplotlib.pyplot as plt
 
 # MEMBUAT KONFIGURASI PADA CANVAS DASHBOARD
 st.set_page_config(
