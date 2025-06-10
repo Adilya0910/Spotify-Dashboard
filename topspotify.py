@@ -50,7 +50,7 @@ st.markdown(
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv(r"C:\Users\Asus\Downloads\dataspotify_baru.csv")
+    df = pd.read_csv("dataspotify_baru.csv")
     df = df.rename(columns={
         "track_name": "Title",
         "track_artist": "Artist",
